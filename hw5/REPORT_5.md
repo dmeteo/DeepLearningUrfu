@@ -77,7 +77,7 @@
 
 Реализовал класс AugmentationPipeline с нужными методами
 
-Сохранил результаты в папку augmentations_basics
+Сохранил результаты в папку augmentations_results
 
 ---
 
