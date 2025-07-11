@@ -30,13 +30,13 @@ tokenizer.add_special_tokens(["<s>", "</s>", "<pad>"])
 
 ## 4. Обучение
 
-Обучение проводилось на RTX 4060 с использованием `torch.amp` (FP16), `GradScaler`, `autocast`.
+Обучение проводилось на RTX 4060 с использованием `torch.amp`, `GradScaler`, `autocast`.
 
 **Гиперпараметры:**
 - `batch_size = 32` увеличил для ускорения
 - `max_length = 128`
 - `learning_rate = 1e-4`
-- `num_epochs = 7` тестировал для beam_search(так и не получилось)
+- `num_epochs = 7` проверял для beam_search(так и не получилось)
 
 ### Dataset:
 Использован `wikitext-2-raw-v1` из `datasets`:
